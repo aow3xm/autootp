@@ -103,7 +103,7 @@ const App = () => {
   };
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
+    setEmail(event.target.value.trim());
   };
 
   const handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
